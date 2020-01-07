@@ -29,6 +29,7 @@ class AbstractBoard:
         self.populate_board()
 
     def populate_board(self):
+        """需要子类实现该方法"""
         raise NotImplementedError()
 
     def __str__(self):
